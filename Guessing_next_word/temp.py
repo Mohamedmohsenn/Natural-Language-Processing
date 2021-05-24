@@ -1,4 +1,4 @@
-#bsm elah l r7man l r7em
+
 from tkinter import * 
 
 from nltk.corpus import PlaintextCorpusReader
@@ -42,20 +42,4 @@ for i in range(mn) :
     print(sorted_dict[i])
     
     
-    
-root = Tk()
-
-myLabel  = Label(root,text="Start Typing...",font = ("Helvetica",14),fg = "grey")
-myLabel.pack(pady=20)
-
-myEntry = Entry(root,font = ("Helvetica",20))
-myEntry.pack()
-
-myList = Listbox(root,width = 50)
-myList.pack(pady = 40)
-
-
-
-root.mainloop()
-
  
